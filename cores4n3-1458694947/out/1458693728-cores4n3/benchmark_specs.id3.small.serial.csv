@@ -1,0 +1,11 @@
+running benchmark.id3/id3-serial with args (benchmark_specs/data/id3-small.dat)
+Evaluation count : 60 in 60 samples of 1 calls.
+             Execution time mean : 8.637948 sec
+    Execution time std-deviation : 225.772934 ms
+   Execution time lower quantile : 8.313209 sec ( 2.5%)
+   Execution time upper quantile : 9.046692 sec (97.5%)
+                   Overhead used : 1.699131 ns
+
+Found 1 outliers in 60 samples (1.6667 %)
+	low-severe	 1 (1.6667 %)
+ Variance from outliers : 14.1423 % Variance is moderately inflated by outliers

@@ -1,0 +1,12 @@
+running benchmark.fib/fib-serial with args (35)
+Evaluation count : 120 in 60 samples of 2 calls.
+             Execution time mean : 651.759616 ms
+    Execution time std-deviation : 42.426373 ms
+   Execution time lower quantile : 606.798906 ms ( 2.5%)
+   Execution time upper quantile : 740.897337 ms (97.5%)
+                   Overhead used : 1.652235 ns
+
+Found 3 outliers in 60 samples (5.0000 %)
+	low-severe	 2 (3.3333 %)
+	low-mild	 1 (1.6667 %)
+ Variance from outliers : 48.4636 % Variance is moderately inflated by outliers

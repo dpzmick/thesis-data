@@ -1,0 +1,8 @@
+run starting
+03-22-16 16:03:17
+1458663017
+
+running these specs:
+benchmark_specs/fib/big/serial.csv
+benchmark_specs/fib/big/parfun.csv
+finished test

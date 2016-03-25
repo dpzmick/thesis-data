@@ -1,0 +1,8 @@
+running benchmark.fib/fib-parfun with args (35)
+WARNING: Final GC required 1.005984057808241 % of runtime
+Evaluation count : 180 in 60 samples of 3 calls.
+             Execution time mean : 400.821368 ms
+    Execution time std-deviation : 15.124610 ms
+   Execution time lower quantile : 382.586843 ms ( 2.5%)
+   Execution time upper quantile : 429.910983 ms (97.5%)
+                   Overhead used : 1.625275 ns

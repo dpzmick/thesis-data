@@ -1,0 +1,7 @@
+running benchmark.fib/fib-parfun with args (35)
+Evaluation count : 240 in 60 samples of 4 calls.
+             Execution time mean : 283.094301 ms
+    Execution time std-deviation : 12.995597 ms
+   Execution time lower quantile : 256.562813 ms ( 2.5%)
+   Execution time upper quantile : 309.507686 ms (97.5%)
+                   Overhead used : 1.633799 ns

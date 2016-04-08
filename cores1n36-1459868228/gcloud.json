@@ -1,0 +1,3314 @@
+[
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.325-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n1",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8166222129095667570",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n1",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.154.171",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.27",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n1",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.335-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n10",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8140128115418361714",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n10",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.35.123",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.11",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n10",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.360-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n11",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "323789636770885490",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n11",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.137.240",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.40",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n11",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.319-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n12",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7882534685881823090",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n12",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "23.236.56.227",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.31",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n12",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.610-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n13",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5136335182389735282",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n13",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.114.60",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.19",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n13",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.402-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n14",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2316115508143746930",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n14",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.61.228",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.33",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n14",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.227-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n15",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6408495325709758322",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n15",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.0.253",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.39",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n15",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.416-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n16",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7529332002981310322",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n16",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.226.36",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.37",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n16",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:20.990-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n17",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5986489246707249011",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n17",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.72.104",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.6",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n17",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.663-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n18",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5153681460081618802",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n18",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.88.122",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.45",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n18",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.355-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n19",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5888466281852465010",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n19",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.52.194",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.12",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n19",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.214-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n2",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "915547421905153906",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n2",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "23.251.148.127",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.21",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n2",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.406-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n20",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4267695931017555826",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n20",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.219.176",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.18",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n20",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.398-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n21",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8833887474002325362",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n21",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.60.190",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.14",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n21",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.362-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n22",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1081574669836775282",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n22",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.136.20",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.38",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n22",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.294-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n23",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "809308420836323186",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n23",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.231.29",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.44",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n23",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.393-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n24",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1453193429473193842",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n24",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.205.142",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.41",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n24",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.373-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n25",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5255392947145174898",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n25",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.146.87",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.17",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n25",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.375-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n26",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "646342011412967282",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n26",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.124.151",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.15",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n26",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.258-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n27",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2945283776981135218",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n27",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.154.105.180",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.24",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n27",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.370-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n28",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "455015125480271730",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n28",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "23.236.60.218",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.42",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n28",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.401-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n29",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3294612313481310066",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n29",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.204.95",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.47",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n29",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.391-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n3",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7193068383333412722",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n3",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.62.23",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.26",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n3",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.632-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n30",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4506950120783114098",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n30",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.154.28.67",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.35",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n30",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.254-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n31",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "982238501551370098",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n31",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.42.138",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.22",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n31",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:20.692-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n32",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4194522581785538419",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n32",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.123.92",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.2",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n32",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.314-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n33",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1052747828598566770",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n33",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.240.83",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.43",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n33",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.414-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n34",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6905121801440751474",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n34",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.105.126",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.20",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n34",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.403-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n35",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "154070997592338290",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n35",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.194.232",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.13",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n35",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.351-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n36",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6701953334190698354",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n36",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.154.47.145",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.30",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n36",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.428-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n37",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "6901224827289235314",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n37",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.239.170",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.48",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n37",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.451-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n38",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8424653940543352690",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n38",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.177.69",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.46",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n38",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.279-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n39",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2737968767914897266",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n39",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.48.154",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.36",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n39",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.055-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n4",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "9058297711332061042",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n4",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.89.150",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.4",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n4",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.258-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n40",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2893111722609897330",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n40",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.81.22",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.9",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n40",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.170-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n41",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4374878897178570610",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n41",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.98.19",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.25",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n41",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:20.803-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n42",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "4014136137196924787",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n42",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.142.246",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.3",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n42",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.418-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n43",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "8697386665941823346",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n43",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.132.128",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.16",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n43",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.194-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n44",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "875870883391893362",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n44",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.33.201",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.23",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n44",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.549-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n45",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1263117551549706098",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n45",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.92.211",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.49",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n45",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:20.907-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n46",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "7308101669243219827",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n46",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.35.16",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.7",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n46",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.346-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n47",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3483681798962966386",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n47",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.77.25",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.32",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n47",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.225-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n48",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3143054110290243442",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n48",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.117.162",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.10",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n48",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.072-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n5",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "1196839076526714738",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n5",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.154.57.12",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.8",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n5",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.431-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n6",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "5050354773256990578",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n6",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.154.110.165",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.34",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n6",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.164-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n7",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "2216042898995965810",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n7",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "104.197.225.108",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.29",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n7",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.377-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n8",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "130774334769622898",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n8",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "146.148.32.215",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.28",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n8",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "cpuPlatform": "Intel Sandy Bridge",
+    "creationTimestamp": "2016-04-05T07:54:21.043-07:00",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "persistent-disk-0",
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1510-wily"
+        ],
+        "mode": "READ_WRITE",
+        "source": "cores1n9",
+        "type": "PERSISTENT"
+      }
+    ],
+    "id": "3444569159590899571",
+    "kind": "compute#instance",
+    "machineType": "custom-1-6144",
+    "metadata": {
+      "fingerprint": "aVYcfe5TnvA=",
+      "kind": "compute#metadata"
+    },
+    "name": "cores1n9",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "external-nat",
+            "natIP": "130.211.124.78",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "name": "nic0",
+        "network": "default",
+        "networkIP": "10.128.0.5",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/regions/us-central1/subnetworks/default-8d0f59f79af49806"
+      }
+    ],
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/senior-thesis-1257/zones/us-central1-a/instances/cores1n9",
+    "serviceAccounts": [
+      {
+        "email": "1022249950917-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud.useraccounts.readonly",
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/service.management",
+          "https://www.googleapis.com/auth/servicecontrol"
+        ]
+      }
+    ],
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "us-central1-a"
+  }
+]

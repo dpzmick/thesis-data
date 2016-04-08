@@ -1,0 +1,11 @@
+ 0% Scenario{vm=java, trial=0, benchmark=FibFJ} 556267976.00 ns; σ=7399003.58 ns @ 10 trials
+50% Scenario{vm=java, trial=0, benchmark=FibSerial} 597260596.00 ns; σ=15272504.25 ns @ 10 trials
+
+benchmark  ms linear runtime
+    FibFJ 556 ===========================
+FibSerial 597 ==============================
+
+vm: java
+trial: 0
+
+Note: benchmarks printed 360 characters to System.out and 0 characters to System.err. Use --debug to see this output.

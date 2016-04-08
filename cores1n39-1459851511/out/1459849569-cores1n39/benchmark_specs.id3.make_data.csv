@@ -1,0 +1,3 @@
+running benchmark.id3/create-input-file with args (10 10 benchmark_specs/data/id3-tiny.dat)
+running benchmark.id3/create-input-file with args (100 1000 benchmark_specs/data/id3-small.dat)
+running benchmark.id3/create-input-file with args (300 1000 benchmark_specs/data/id3-medium.dat)

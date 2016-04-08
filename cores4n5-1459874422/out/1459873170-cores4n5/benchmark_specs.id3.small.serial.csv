@@ -1,0 +1,12 @@
+running benchmark.id3/id3-serial with args (benchmark_specs/data/id3-small.dat)
+WARNING: Final GC required 1.219273079555951 % of runtime
+Evaluation count : 60 in 60 samples of 1 calls.
+             Execution time mean : 9.100877 sec
+    Execution time std-deviation : 113.402588 ms
+   Execution time lower quantile : 8.877386 sec ( 2.5%)
+   Execution time upper quantile : 9.324697 sec (97.5%)
+                   Overhead used : 1.970596 ns
+
+Found 2 outliers in 60 samples (3.3333 %)
+	low-severe	 2 (3.3333 %)
+ Variance from outliers : 1.6389 % Variance is slightly inflated by outliers

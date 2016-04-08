@@ -1,0 +1,9 @@
+running benchmark.id3/id3-parfun with args (benchmark_specs/data/id3-small.dat)
+WARNING: Final GC required 2.125587153239475 % of runtime
+WARNING: Final GC required 1.1727669303122599 % of runtime
+Evaluation count : 60 in 60 samples of 1 calls.
+             Execution time mean : 9.464513 sec
+    Execution time std-deviation : 315.718486 ms
+   Execution time lower quantile : 9.014569 sec ( 2.5%)
+   Execution time upper quantile : 10.105662 sec (97.5%)
+                   Overhead used : 1.877991 ns

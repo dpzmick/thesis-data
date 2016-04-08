@@ -1,0 +1,8 @@
+running benchmark.fib/fib-serial with args (39)
+WARNING: Final GC required 1.428425199889134 % of runtime
+Evaluation count : 60 in 60 samples of 1 calls.
+             Execution time mean : 5.289378 sec
+    Execution time std-deviation : 358.050858 ms
+   Execution time lower quantile : 4.925332 sec ( 2.5%)
+   Execution time upper quantile : 6.030944 sec (97.5%)
+                   Overhead used : 2.119219 ns
